@@ -145,7 +145,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/24/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/24/test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -159,7 +159,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/07/24/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/" class="post-title-link" itemprop="url">语法基础回顾——笔记一</a>
+            <a href="/2020/07/24/test/" class="post-title-link" itemprop="url">test</a>
         </h2>
 
         <div class="post-meta">
@@ -170,7 +170,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-07-24 19:54:25 / 修改时间：20:05:37" itemprop="dateCreated datePublished" datetime="2020-07-24T19:54:25+08:00">2020-07-24</time>
+              <time title="创建时间：2020-07-24 19:54:25 / 修改时间：20:57:37" itemprop="dateCreated datePublished" datetime="2020-07-24T19:54:25+08:00">2020-07-24</time>
             </span>
 
           
@@ -185,11 +185,17 @@
 
       
           <h1 id="语法基础回顾——笔记一"><a href="#语法基础回顾——笔记一" class="headerlink" title="语法基础回顾——笔记一"></a>语法基础回顾——笔记一</h1><h3 id="一些推荐规范"><a href="#一些推荐规范" class="headerlink" title="一些推荐规范"></a>一些推荐规范</h3><ol>
-<li>一般来说，只有最简单的脚本才嵌入HTML中。<strong>更复杂的脚本存放在单独的文件中</strong>。使用独立文件的好处是浏览器会下载它，然后将它保存到浏览器的缓存中。之后，其他页面想要相同的脚本就会从缓存中获取，而不是下载它。所以文件实际上只会下载一次。这可以节省流量，并使得页面加载更快。</li>
-<li>现代 JavaScript 支持 “classes” 和 “modules” —— 高级语言结构，它们会自动启用 use strict。因此，如果我们使用它们，则无需添加 “use strict” 指令(<strong>以后写项目要在严格模型下写</strong>)。</li>
-<li>Js变量命名通常用驼峰式。例如：myVeryLongName。其次，可以使用大写字母和下划线来命名硬编码常量，作为别名。而非硬编码一般小写(运行过程中得到的常量值而不是一开始就已知)。<img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/1.png" alt=""></li>
+<li><p>一般来说，只有最简单的脚本才嵌入HTML中。<strong>更复杂的脚本存放在单独的文件中</strong>。使用独立文件的好处是浏览器会下载它，然后将它保存到浏览器的缓存中。之后，其他页面想要相同的脚本就会从缓存中获取，而不是下载它。所以文件实际上只会下载一次。这可以节省流量，并使得页面加载更快。</p>
+</li>
+<li><p>现代 JavaScript 支持 “classes” 和 “modules” —— 高级语言结构，它们会自动启用 use strict。因此，如果我们使用它们，则无需添加 “use strict” 指令(<strong>以后写项目要在严格模型下写</strong>)。</p>
+</li>
+<li><p>Js变量命名通常用驼峰式。例如：myVeryLongName。其次，可以使用大写字母和下划线来命名硬编码常量，作为别名。而非硬编码一般小写(运行过程中得到的常量值而不是一开始就已知)。</p>
+<img src="/2020/07/24/test/1.png" class="">
+
+<img src="/2020/07/24/test/2.png" class="">
+
+</li>
 </ol>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/2.png" alt=""></p>
 <h3 id="一些基础知识"><a href="#一些基础知识" class="headerlink" title="一些基础知识"></a>一些基础知识</h3><ol>
 <li><p>数据类型相关。</p>
 <ul>
@@ -201,63 +207,71 @@
 <li><p>` `反引号是功能扩展符号，它内部允许加${}来把变量和表达式嵌入到字符串中。</p>
 </li>
 </ul>
+<img src="/2020/07/24/test/3.png" class="">
 </li>
-</ol>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/3.png" alt=""></p>
-<ol start="2">
 <li><p>运算符</p>
 <ul>
 <li>一元+号能将字符串转为数字</li>
 <li>=号表示先<strong>写入</strong>再返回</li>
 <li>逻辑运算符</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/8.png" alt="">)<img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/9.png" alt=""></p>
+<img src="/2020/07/24/test/8.png" class=""><img src="/2020/07/24/test/9.png" class="">
+
 <ul>
 <li>值的对比</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/7.png" alt=""></p>
+<img src="/2020/07/24/test/7.png" class="" title="This is an test image">
+
 <ul>
 <li>运算实例</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/6.png" alt=""></p>
+<img src="/2020/07/24/test/6.png" class="" title="This is an test image">
+
 <ul>
 <li>空合并运算符’ ?? ‘</li>
 </ul>
 </li>
 </ol>
-<p>​      <img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/4.png" alt=""></p>
+<p>​      <img src="/2020/07/24/test/4.png" class="" title="This is an test image"></p>
 <ol start="3">
 <li><p>函数</p>
 <ul>
 <li>函数编写范式推荐</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/5.png" alt=""></p>
+<img src="/2020/07/24/test/5.png" class="" title="This is an test image">
+
 <ul>
 <li>箭头函数基础</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/10.png" alt=""></p>
+<img src="/2020/07/24/test/10.png" class="" title="This is an test image">
+
 </li>
 </ol>
 <h3 id="代码质量"><a href="#代码质量" class="headerlink" title="代码质量"></a>代码质量</h3><ul>
 <li>Debugger</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/11.png" alt=""></p>
+<img src="/2020/07/24/test/11.png" class="" title="This is an test image">
+
 <ul>
 <li>跟踪调试</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/12.png" alt=""></p>
+<img src="/2020/07/24/test/12.png" class="" title="This is an test image">
+
 <ul>
 <li>代码风格推荐</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/13.png" alt=""></p>
+
+
 <ul>
 <li>代码检查器</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/14.png" alt=""></p>
+<img src="/2020/07/24/test/14.png" class="" title="This is an test image">
+
 <ul>
 <li>注释风格推荐</li>
 </ul>
-<p><img src="./%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%9B%9E%E9%A1%BE%E2%80%94%E2%80%94%E7%AC%94%E8%AE%B0%E4%B8%80/15.png" alt=""></p>
+<img src="/2020/07/24/test/15.png" class="" title="This is an test image">
+
 <ul>
 <li><strong><a href="https://zh.javascript.info/ninja-code" target="_blank" rel="noopener">终极忍者秘籍</a></strong></li>
 <li><a href="https://zh.javascript.info/testing-mocha" target="_blank" rel="noopener">自动化单元测试</a></li>
